@@ -95,6 +95,10 @@ while True:
 
 
       if head.distance(food) < 20:
+                colors = random.choice(["red", "green", "black"])
+                shapes = random.choice(["square", "triangle", "circle"])
+                food.shape(shapes)
+                food.color(colors)
                #جابه جايي غذا
                 x = random.randint(-270, 270)
                 y = random.randint(-270, 270)
